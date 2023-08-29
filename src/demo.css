@@ -1,0 +1,512 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: salmon;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.nested-dropdown {
+    margin-top: 5px;
+    padding-left: 20px;
+    display: none;
+  }
+  
+.link.open .nested-dropdown {
+    display: block;
+  }
+  .nested-link {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+  }
+  
+  .nested-link:hover {
+    color: #fff;
+  }
+.icon, .link_text{
+    font-size: 20px;
+}
+#input{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 50px;
+
+
+}
+.sam{
+    color: salmon;
+}
+.sam1{
+    width: 200px;
+    height: 200px;
+    margin-left: 320px;
+    margin-top: -200px;
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.sam2{
+    width: 200px;
+    height: 200px;
+    margin-left: 620px;
+    margin-top: -200px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.sam3{
+    width: 200px;
+    height: 200px;
+    margin-left: 920px;
+    margin-top: -200px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.sam5{
+    color: red;
+}
+.sam6{
+    position: absolute;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 200px;
+  
+   margin-left: 300px;
+    margin-top: -80px;
+   
+  
+   
+    width: 200px;
+    height: 80px;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    background-color: peachpuff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+ 
+  
+  
+  
+}
+.sam7{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+   
+    margin-left: 700px;
+     margin-top: -80px;
+    
+   
+    
+     width: 200px;
+     height: 80px;
+     font-weight: bold;
+     color: black;
+     font-size: 30px;
+    background-color: peachpuff;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  
+   
+  
+  
+    
+}
+/* .sam8{
+  
+    font-size: 20px;
+    margin-top: 180px;
+    margin-left: 0px;
+   
+
+}
+.sam21{
+    margin-left: 100px;
+}
+.sam22{
+    margin-left: 50px;
+}
+.sam23{
+    margin-left: 110px;
+}
+.sam24{
+    margin-left: 85px;
+}
+.sam25{
+    margin-left: 40px;
+}
+.sam26{
+    margin-left: 35px;
+}
+.sam27{
+    margin-left: 130px;
+}
+.sam28{
+    margin-left: 55px;
+}
+.sam29{
+    margin-left: 125px;
+}
+.sam30{
+    margin-left: 92px;
+}
+.sam31{
+    margin-left: 112px;
+}
+.sam32{
+    margin-left: 34px;
+}
+.sam33{
+    margin-left: 43px;
+}
+.sam34{
+    margin-left: 62px;
+}
+.sam20{
+    margin-left: 58px;
+}
+
+.sam9{
+    outline: none;
+    width: 980px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.sam10{
+    width: 980px;
+    height: 30px;
+    margin-left: 25px;
+}
+.sam11{
+    width: 980px;
+    height: 30px;
+    margin-left: 55px;
+}
+.sam12{
+    width: 935px;
+    height: 30px;
+    margin-left: 20px;
+}
+.sam13{
+    width: 980px;
+    height: 30px;
+    margin-left: 125px;
+}
+.sam14{
+    width: 980px;
+    height: 30px;
+    margin-left: 90px;
+
+}
+.sam15{
+    width: 980px;
+    height: 30px;
+    margin-left: 135px;
+
+}
+.sam16{
+    width: 980px;
+    height: 30px;
+    margin-left: 30px;
+}
+.sam17{
+    width: 980px;
+    height: 30px;
+    margin-left: 95px;
+} */
+/* Add these CSS styles to your stylesheet */
+/* Styling for the container of the employee form */
+.sam8 {
+    /* width: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  
+  /* Styling for input fields */
+  .sam8 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .sam8 input[type="text"],
+  .sam8 input[type="number"],
+  .sam8 input[type="email"],
+  .sam8 input[type="date"],
+  .sam8 input[type="file"],
+  .sam8 input[type="select"] {
+    /* width: 80%; */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 30px;
+  }
+  
+  /* Styling for buttons */
+  .sam8 button[type="submit"],
+  .sam8 button[type="button"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .sam8 button[type="submit"]:hover,
+  .sam8 button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for links */
+  /* .sam6,
+  .sam7 {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+  } */
+/*   
+  .sam6:hover,
+  .sam7:hover {
+    text-decoration: underline;
+  } */
+  
+  /* Additional styles as needed */
+  .sam12{
+    width: 850px;
+    outline: none;
+   
+  }
+ 
+  .sam21{
+    margin-left: 88px;
+
+  }
+  .sam28{
+    margin-left: 50px;
+  }
+  .sam29{
+    margin-left: 111px;
+  }
+  .sam30{
+    margin-left: 84px;
+  }
+  .sam31{
+    margin-left: 103px;
+  }
+  .sam32{
+    margin-left: 37px;
+  }
+  .sam33{
+    margin-left: 45px;
+  }
+  .sam34{
+    margin-left: 61px;
+  }
+  .sam20{
+    margin-left: 58px;
+  }
+  .sam22{
+    margin-left: 42px;
+  }
+  .sam23{
+    margin-left: 92px;
+  }
+  .sam24{
+    margin-left: 68px;
+  }
+  .sam25{
+    margin-left: 30px;
+  }
+  .sam26{
+    margin-left: 29px;
+  }
+  .sam27{
+    margin-left: 110px;
+  }
+
+  #sam200{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -30px;
+    width: 850px;
+  }
+.employee-list-container {
+    margin: 20px;
+ 
+    
+  
+}
+
+.employee-list {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8px;
+}
+
+.employee-list th,
+.employee-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.employee-list th {
+    background-color: #f5f5f5;
+}
+
+.employee-list th:first-child,
+.employee-list td:first-child {
+    text-align: left;
+    
+}
+
+.employee-list img {
+  width: 70px;
+  height: 70px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+.employee-list button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.employee-list button:hover {
+    background-color: #0056b3;
+}
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+.fa-solid{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-left: 200px;
+
+    background-color: palevioletred;
+    color: orange;
+}
+#king{
+    margin-left: 300px;
+}
+.submenu-text{
+    /* font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    line-height: 50px; */
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+   text-align: center;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.submenu-text:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+
+}
+.link:hover{
+
+    cursor: pointer;
+
+}
+.sam170{
+    margin-left: 32px;
+    width: 865px;
+    height: 35px;
+    outline: none;
+}
